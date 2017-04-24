@@ -1,6 +1,5 @@
 <template>
-  <div class="MenuNav">
-    <ul class="nav">
+    <ul class="nav MenuNav">
       <li class="active">
         <a href="dashboard.html">
           <i class="pe-7s-graph"></i>
@@ -50,8 +49,6 @@
         </a>
       </li>
     </ul>
-  </div>
-
 </template>
 
 <script>
