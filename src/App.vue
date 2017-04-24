@@ -11,9 +11,9 @@
 
 <script>
 
-  import Sidebar from './components/Sidebar'
-  import Navbar from './components/Navbar'
-  import MyFooter from './components/MyFooter'
+  import Sidebar from './components/layout/Sidebar'
+  import Navbar from './components/layout/Navbar'
+  import MyFooter from './components/layout/MyFooter'
 
   export default {
     name: 'app',
