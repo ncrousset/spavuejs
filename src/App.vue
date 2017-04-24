@@ -1,16 +1,12 @@
 <template>
-    <div id="app">
-        <div class="container">
-            <div class="col-sm-3">
-                <router-view></router-view>
-            </div>
-        </div>
-    </div>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  export default {
+    name: 'app'
+  }
 </script>
 

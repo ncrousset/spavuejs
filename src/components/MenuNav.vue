@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div class="MenuNav">
     <ul class="nav">
       <li class="active">
         <a href="dashboard.html">
@@ -56,6 +56,6 @@
 
 <script>
   export default{
-    name: 'nav'
+    name: 'MenuNav'
   }
 </script>

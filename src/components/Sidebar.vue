@@ -1,27 +1,21 @@
 <template>
-    <div>
-        <header-component/>
-        <div>this is template body</div>
-        <other-component/>
+  <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar-wrapper">
+      <div class="logo">
+        <a href="http://www.creative-tim.com" class="simple-text">
+          Creative Tim
+        </a>
+      </div>
+      <menu-nav></menu-nav>
     </div>
+  </div>
 </template>
-<style>
-    body{
-        background-color:#ff0000;
-    }
-</style>
 <script>
-    import HeaderComponent from './components/header.vue'
-    import OtherComponent from './components/other.vue'
-    export default{
-        data(){
-            return{
-                msg:'hello vue'
-            }
-        },
-        components:{
-            'other-component':OtherComponent,
-            HeaderComponent,
-        }
-    }
+
+  import MenuNav from './MenuNav'
+
+  export default {
+    name: 'sidebar',
+    components: { MenuNav }
+  }
 </script>
