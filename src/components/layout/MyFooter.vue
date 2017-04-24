@@ -1,5 +1,5 @@
 <template>
-  <footer class="MyFooter">
+  <footer class="MyFooter footer">
     <div class="container-fluid">
       <nav class="pull-left">
         <ul>
