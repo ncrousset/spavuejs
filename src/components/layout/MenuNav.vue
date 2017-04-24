@@ -1,10 +1,10 @@
 <template>
     <ul class="nav MenuNav">
       <li class="active">
-        <a href="dashboard.html">
+        <router-link to="/dashboard">
           <i class="pe-7s-graph"></i>
           <p>Dashboard</p>
-        </a>
+        </router-link>
       </li>
       <li>
         <a href="user.html">
